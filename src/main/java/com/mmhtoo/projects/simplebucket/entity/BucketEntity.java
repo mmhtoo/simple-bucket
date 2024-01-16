@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
+import java.util.Date;
 
 @Entity
 @Table( name = "buckets" )
@@ -24,9 +24,9 @@ public class BucketEntity {
 
   private String description;
 
-  private LocalDateTime createdAt;
+  private Date createdAt;
 
-  private LocalDateTime updatedAt;
+  private Date updatedAt;
 
   // if true, won't be able to access
   // can't only be changed by owner user

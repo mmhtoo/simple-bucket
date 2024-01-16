@@ -17,3 +17,5 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+  jackson:
+    date-format: yyyy-mm-dd hh:mm:ss
